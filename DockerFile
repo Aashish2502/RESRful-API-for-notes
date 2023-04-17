@@ -1,0 +1,8 @@
+
+
+FROM python:3.8-slim-buster
+
+ADD . /app_1
+WORKDIR /app_1
+
+RUN pip install -r requirements.txt
